@@ -1,0 +1,112 @@
+li a{
+    font-size: 20px;
+     color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+  }
+  li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: lightskyblue;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  #yuHacks {
+      font-size: 7em;
+
+  }
+  .winter-neva-gradient {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .winter-neva-gradient:hover{
+    box-shadow: 0 10px 20px -8px lightblue;
+  }
+  .up {
+    position: relative;
+    top: 0;       
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+          }
+  
+  .up:hover {
+    top: -5px;
+    transform : scale(1.1);
+    -moz-transform : scale(1.1);
+    -webkit-transform : scale(1.1);
+    -o-transform : scale(1.1);
+    -ms-transform : scale(1.1);
+              
+          }
+  .title{
+    font-size: 4em;
+  }
+  .bg-psu {
+    background-color: #141c3c;
+
+  }
+  body:before, .more-snow:before, body:after, .more-snow:after {
+    content: "";
+    position: fixed;
+    top: -3000%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.01);
+    background-image: url(http://www.freepngimg.com/download/winter_snow/4-2-white-snow-png.png);
+    background-size: 30%;
+    -webkit-animation-name: MOVE-BG;
+    -webkit-animation-duration: 500s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+ }
+  body:before {
+    filter: blur(6px);
+    opacity: 0.8;
+ }
+  body:after {
+    filter: blur(1px);
+    top: -1500%;
+    background-image: url(http://www.freepngimg.com/download/winter_snow/4-2-white-snow-png.png);
+    background-size: 90%;
+    animation-duration: 200s;
+ }
+  .more-snow:before {
+    filter: blur(4px);
+    opacity: 0.8;
+    top: -2500%;
+    background-size: 60%;
+    animation-duration: 400s;
+ }
+  .more-snow:after {
+    filter: blur(2px);
+    opacity: 0.8;
+    top: -2000%;
+    background-image: url(https://laviwebfiles.com/stage/codepen/4-2-white-snow-png.png);
+    background-size: 70%;
+    animation-duration: 300s;
+ }
+  @-webkit-keyframes MOVE-BG {
+    from {
+      transform: translateY(0);
+   }
+    to {
+      transform: translateY(70%);
+   }
+ }
+  

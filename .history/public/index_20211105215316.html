@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- AOS CSS Library CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"> 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+
+
+    <title>yuHacks</title>
+</head>
+
+<body data-spy="scroll" data-target="#main_nav">
+    <div class="snow"></div>
+
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-md navbar-white bg-psu" id="main_nav">
+        <div class="container">
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span >
+                    <i class="bi bi-list" style="color:white; font-size: 2rem; "></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarMenu">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/yuHacks-Logo@2x.png" width="80" height="80" alt="yuHacks logo">
+                </a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#register">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tracks">Tracks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prizes">Prizes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sponsors">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <a id="mlh-trust-badge"
+            style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
+            href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=blue"
+            target="_blank"><img
+                src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-blue.svg"
+                alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>
+
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Home Starts -->
+    <section id="home" class="bg-psu text-blue text-left">
+        <div class="container">
+            <div>
+                <div>
+                    <br><br>
+                    <h1 id="yuHacks" class="text-primary">yuHacks</h1>
+                    <h2 class="text-white">February 18 - 19, 2022</h2>
+
+                    <button class="btn winter-neva-gradient up mt-3">REGISTER NOW</button>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Ends -->
+
+    <!-- <section id="slideshow" class="bg-psu"> 
+        <div class="container">
+            <div class="slider ">
+                <div class="slide-track bg-transparent">
+                    <div class="slide">
+                        <img src="./assets/Lassonde_300.jpg" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/mlh.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/yorkDSC.jpg" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+     <!-- About Starts -->
+     <section id="about" class="bg-psu d-lg-5 text-center text-sm-left p-2">
+        <div class="container">
+            <div class="d-sm-flex row justify-content-between ms-auto">
+                <div class="col-md mb-3 text-left" >
+                    <h2  class="text-primary title">About yuHacks</h1>
+                    <p class="lead text-sm-left text-white">
+                        yuHacks is York University’s 24-hour virtual hackathon by students, for students. We spent
+                        months interviewing fellow students to understand how we could best serve them through our
+                        hackathon. The predominant theme was that students wanted a focus on
+                        as they prepare to enter a highly competitive modern workforce.
+                        Through yuHacks, we hope to present attendees with the opportunity to better their professional
+                        selves while engaging in all the fun
+                        you’d expect from a hackathon.
+                    </p>
+                </div>
+                <div class="col-md pt-3">
+                    <img class="img-fluid float-right d-none d-md-block"src="./assets/yuHacks-Logo@2x.png" width="300px" height="300px" alt="yuHacks logo">
+                    <div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Ends -->
+
+    <!-- Register Starts -->
+    <section id="register" class="bg-psu text-sm-left p-2">
+        <div class="container ">
+            <h2  class="text-primary title">Register</h1>
+            <div class="row text-left">
+                
+                <div class="col-md mb-3">
+                    
+                    <div class="card text-dark border-0">
+                        <div class="card-body text-center">
+                            <!-- <div class="h1 mb-3">
+                                
+                            </div> -->
+                            <h3 class="card-title mb-3">
+                                HACKER
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md mb-3">
+                    <div class="card text-dark border-0">
+                        <div class="card-body text-center">
+                            <!-- <div class="h1 mb-3">
+                                
+                            </div> -->
+                            <h3 class="card-title mb-3">
+                                VOLUNTEER
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mb-3">
+                    <div class="card text-dark border-0">
+                        <div class="card-body text-center">
+                            <!-- <div class="h1 mb-3">
+                                
+                            </div> -->
+                            <h3 class="card-title mb-3">
+                                MENTOR
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Register Ends -->
+
+ <!-- Prizes Starts -->
+ <!-- <section id="prizes" class="bg-psu text-sm-left p-2 ">
+    <div class="container">
+        <div class="row text-left">
+        <div class="col-md mb-3">
+            <div class="slds-grid">
+                <div class="slds-col slds-align-top">
+                  <span>1</span>
+                </div>
+                <div class="slds-col slds-align-middle">
+                  <span>2</span>
+                </div>
+                <div class="slds-col slds-align-bottom">
+                  <span>3</span>
+                </div>
+              </div>
+        </div>
+    </div> 
+    </div>
+</section> -->
+<!-- Prizes Ends -->
+
+
+
+
+    <!-- Schedule Starts -->
+    <section id="schedule" class="bg-psu text-sm-left p-2 ">
+        <div class="container">
+            <div class="row text-left">
+            <div class="col-md mb-3">
+                <h2 class="text-primary title">Schedule</h1>
+                    <iframe class="airtable-embed"
+                    src="https://airtable.com/embed/shrRSrUO48x93Md6q?backgroundColor=blue&viewControls=on" frameborder="0"
+                    onmousewheel="" width="100%" height="650"
+                    style="background: transparent; border: 1px solid #ccc;"></iframe>
+            </div>
+        </div> 
+        </div>
+    </section>
+    <!-- Schedule Ends -->
+
+     <!-- Sponsor Starts -->
+     <!-- <section id="sponsors" class="bg-psu text-sm-left p-2">
+        <div class="container ">
+            <h2  class="text-primary title">Sponsors</h1>
+        <div class="column bg-white" style="border-radius: 2px;">
+            <div class="row text-left">
+                
+                <div class="col-md mb-3 sponsorImg">
+                    
+                    <div class="card text-dark border-0">
+                        <div class="card-body text-center">
+                         
+                            <a href="https://lassonde.yorku.ca" target="_blank" ><img src="./assets/Lassonde_300.jpg" class="img-fluid" width="100%" height="200px" alt="Lassonde and York"></a>
+                            
+                        </div>
+                       
+
+                    </div>
+                </div>
+
+                <div class="col-md mb-3 sponsorImg">
+                    <div class="card text-dark border-0">
+                        <div class="card-body text-center">
+                            <a href="https://mlh.io" target="_blank" ><img src="./assets/logo-mlh.svg" class="img-fluid" alt="MLH"></a>
+
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mb-3">
+                    <div class="card text-dark border-0">
+                        <div class="card-body text-center">
+                            <a href="https://dscyorku.tech" target="_blank" ><img src="./assets/yorkDSC.jpg" class="img-fluid"  alt="GDSCYorkU"></a>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section> -->
+
+    <section class="sponsors" id="sponsors">
+        <div class="container">
+            <div class="d-flex justify-content-center mb-5">
+                <h2  class="text-primary title">Sponsors</h1>
+
+                    
+            </div>
+
+            <!-- <div class="d-flex justify-content-center align-items-center mb-5">
+                <a href="https://www.cockroachlabs.com/" target="_blank">
+                    <img src="./dist/images/cockroachlabs-logo-upscale.png" alt="Cockroach Lab Logo"
+                        class="img-fluid"></img>
+                </a>
+            </div> -->
+            <div class="d-flex justify-content-center align-items-center mb-5 col-mb-3">
+                <a href="https://lassonde.yorku.ca/" target="_blank">
+                    <img src="./assets/Lassonde_300.jpg" alt="Lassonde School of Engineering Logo"
+                        class="img-fluid logo--large-rectangle"></img>
+                </a>
+                <a href="https://lassondesecurity.club/" target="_blank">
+                    <img src="./assets/lassonde-security.png" alt="Lassonde security club Logo"
+                        class="img-fluid logo--medium-square">
+                </a>
+
+            </div>
+            <div class="row">
+                <!-- <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
+                    <a href="https://thecodex.me/" target="_blank">
+                        <img src="./dist/images/th-codex-full-logo-black.png" alt="The Codex Logo"
+                            class="img-fluid logo--medium-long">
+                    </a>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
+                    <a href="https://yurideshare.ca/" target="_blank">
+                        <img src="./dist/images/yuride-transparent-final.png" alt="YuRide logo--ibm"
+                            class="img-fluid logo--medium-rectangle">
+                    </a>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
+                    <a href="https://gatherapp.live/" target="_blank">
+                        <img src="./dist/images/Gather-Logo-White-on-Orange.png" alt="Gather Logo"
+                            class="img-fluid logo--medium-square">
+                    </a>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
+                    <a href="https://stemfellowship.org/" target="_blank">
+                        <img src="./dist/images/STEMF-logo-blue-no-back-6.png" alt="STEMF Logo" class="img-fluid">
+                    </a>
+                </div> -->
+                <!-- <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
+                    <a href="https://lassondesecurity.club/" target="_blank">
+                        <img src="./assets/lassonde-security.png" alt="Lassonde security club Logo"
+                            class="img-fluid logo--medium-square">
+                    </a>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center mb-5">
+                    <a href="https://www.echoar.xyz/" target="_blank">
+                        <img src="./dist/images/echoAR-Logo 2020-Dark.png" alt="EchoAR Logo" class="img-fluid">
+                    </a>
+                </div> -->
+            </div>
+            <!-- <div class="d-flex justify-content-center align-items-center mb-5">
+                <a href="https://lassonde.yorku.ca/bergeron-entrepreneurs-science-technology-best" target="_blank">
+                    <img src="./dist/images/small-best.png" alt="Lassonde School of Engineering Logo"
+                        class="img-fluid "></img>
+                </a>
+            </div> -->
+        </div>
+    </section>
+    <!-- Sponsor Ends -->
+
+    <!-- Community Partner Starts -->
+    
+    <section id="sponsors" class="bg-psu text-sm-left p-2">
+        <div class="container ">
+            <h2  class="text-primary" style="font-size:2em">Community Partner</h1>
+        <div class="column bg-white" style="border-radius: 2px;">
+            <div class="row text-left">
+                
+                <div class="col-md sponsorImg">
+                    
+                    <div class="card text-dark border-0">
+                        <div class="card-body text-left">
+                            <a href="https://mlh.io" target="_blank" ><img src="./assets/lassonde-security.png" width="50%" height="100px"class="img-fluid" alt="lassondeSecurity"></a>
+
+                            
+                        </div>
+                       
+
+                    </div>
+                </div>
+
+                <div class="col-md sponsorImg">
+                    <div class="card text-dark border-0">
+                        <div class="card-body text-left">
+                            <a href="https://dscyorku.tech" target="_blank" ><img src="./assets/yorkDSC.jpg" class="img-fluid" width="100%" height="200px" alt="GDSCYorkU"></a>
+
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md mb-3">
+                    <!-- <div class="card text-dark border-0">
+                        <div class="card-body text-center">
+                           
+                            <h3 class="card-title mb-3">
+                                MENTOR
+                            </h3>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Community Partner Ends -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 500,
+            duration: 800,
+            once: true,
+        }
+
+        );
+    </script>
+</body>
+
+</html>

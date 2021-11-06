@@ -1,0 +1,23 @@
+li a{
+    font-size: 20px;
+     color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    position: relative;
+  }
+  li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #808080;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
