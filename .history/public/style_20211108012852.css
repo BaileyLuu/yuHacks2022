@@ -183,15 +183,15 @@ li a{
 }
 
 .sponsor-section {
-  background-color: hsla(0,0%,45%,.70);
-  padding:20px;
+  background-color: hsla(0,0%,39.2%,.8);
+  padding:25px;
   border-radius: 25px;
   
 }
-/* .alpha-sponsor img {
+.alpha-sponsor img {
   max-width: 100%;
   height: auto;
   width: auto;
-} */
+}
   
   
