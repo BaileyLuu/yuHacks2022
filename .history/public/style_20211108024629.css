@@ -38,13 +38,7 @@ li a{
     box-shadow: 0 10px 20px -8px lightblue;
   }
   .social-media:hover{
-    transform: translateY(-5px);
-    transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    -ms-transition: all .5s;
-    filter:brightness(180%);
+    transform: translateY(5px);
   }
   .up {
     position: relative;

@@ -40,11 +40,6 @@ li a{
   .social-media:hover{
     transform: translateY(-5px);
     transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    -ms-transition: all .5s;
-    filter:brightness(180%);
   }
   .up {
     position: relative;

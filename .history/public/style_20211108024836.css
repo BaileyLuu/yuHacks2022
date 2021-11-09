@@ -44,7 +44,7 @@ li a{
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     -ms-transition: all .5s;
-    filter:brightness(180%);
+    filter:brightness(120%);
   }
   .up {
     position: relative;
