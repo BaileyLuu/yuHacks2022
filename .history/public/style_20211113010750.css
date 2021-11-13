@@ -1,7 +1,7 @@
 html{
   scroll-behavior: smooth;
 }
-li a, #interestedInSponsor a{
+li a, #interestedInSponsor{
     font-size: 20px;
      color: #fff;
     text-decoration: none;
@@ -9,7 +9,7 @@ li a, #interestedInSponsor a{
     display: inline-block;
     position: relative;
   }
-  li a:after, #interestedInSponsor a:after {    
+  li a:after, #interestedInSponsor:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -21,7 +21,7 @@ li a, #interestedInSponsor a{
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  li a:hover:after, #interestedInSponsor a:hover:after  { 
+  li a:hover:after, #interestedInSponsor:hover:after  { 
     width: 100%; 
     left: 0; 
   }

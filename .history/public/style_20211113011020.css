@@ -21,7 +21,7 @@ li a, #interestedInSponsor a{
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  li a:hover:after, #interestedInSponsor a:hover:after  { 
+  li a:hover:after, #interestedInSponsor:hover:after  { 
     width: 100%; 
     left: 0; 
   }
