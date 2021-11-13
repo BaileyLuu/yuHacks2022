@@ -198,14 +198,10 @@ li a{
   
 }
 .faq-section {
-  /* rgba(43, 142, 172, 0.7); */
-  background-color: hsla(0,0%,45%,.70);
-  padding:15px;
+  background-color: rgba(70, 147, 171, 0.7);
+  padding:10px;
   border-radius: 25px;
   
-}
-.faq-answer {
-  filter:brightness(180%);
 }
 /* .alpha-sponsor img {
   max-width: 100%;
