@@ -154,7 +154,7 @@ li a{
   content: "";
   height: 100px;
   position: absolute;
-  width: 100px;
+  width: 300px;
   z-index: 2;
  
 }
@@ -176,7 +176,7 @@ li a{
 }
 .slider .slide {
   height: 100px;
-  width: 350px;
+  width: 250px;
 }
 
 .sponsorImg:hover{

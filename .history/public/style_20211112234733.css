@@ -140,7 +140,7 @@ li a{
 }
 .slider {
   background: pr;
-  /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
   height: 100px;
   margin: auto;
   overflow: hidden;
@@ -154,7 +154,7 @@ li a{
   content: "";
   height: 100px;
   position: absolute;
-  width: 100px;
+  width: 200px;
   z-index: 2;
  
 }
@@ -169,14 +169,14 @@ li a{
   top: 0;
 }
 .slider .slide-track {
-  -webkit-animation: scroll 30s linear infinite;
-          animation: scroll 30s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
   display: flex;
   width: calc(250px * 14);
 }
 .slider .slide {
   height: 100px;
-  width: 350px;
+  width: 250px;
 }
 
 .sponsorImg:hover{

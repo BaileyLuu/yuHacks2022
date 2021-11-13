@@ -154,7 +154,7 @@ li a{
   content: "";
   height: 100px;
   position: absolute;
-  width: 100px;
+  width: 200px;
   z-index: 2;
  
 }
@@ -169,14 +169,14 @@ li a{
   top: 0;
 }
 .slider .slide-track {
-  -webkit-animation: scroll 30s linear infinite;
-          animation: scroll 30s linear infinite;
+  -webkit-animation: scroll 20s linear infinite;
+          animation: scroll 20s linear infinite;
   display: flex;
   width: calc(250px * 14);
 }
 .slider .slide {
   height: 100px;
-  width: 350px;
+  width: 250px;
 }
 
 .sponsorImg:hover{
