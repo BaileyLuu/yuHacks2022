@@ -20,12 +20,12 @@ li a, #interestedInSponsor a{
     background: lightskyblue;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-    
+    color: primary;
+    filter: brightness(180%);
   }
   li a:hover:after, #interestedInSponsor a:hover:after  { 
     width: 100%; 
     left: 0; 
-  
   }
 
   #yuHacks {

@@ -25,7 +25,8 @@ li a, #interestedInSponsor a{
   li a:hover:after, #interestedInSponsor a:hover:after  { 
     width: 100%; 
     left: 0; 
-  
+    color:blue;
+    filter: brightness(300%);
   }
 
   #yuHacks {
