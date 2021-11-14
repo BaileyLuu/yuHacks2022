@@ -179,6 +179,6 @@ const countDown = (
     $('.navbar-collapse').collapse('hide');
   });
   
-  $(".rotate").click(function(){
-    $(this).toggleClass("down")  ; 
-   })
+  function animation() {
+    document.getElementById("flake1").className = "snowflake-ani";
+  }

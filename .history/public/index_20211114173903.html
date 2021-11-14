@@ -399,10 +399,10 @@
                     <div class="col-lg-6">
                         <div data-toggle="collapse" data-target="#qs1">
                             <h5 class="card-title" style=" cursor: pointer;" >  What is a hackathon?
-                                <button class="navbar-toggler rotate"  >
+                                <button class="navbar-toggler"   >
                                     <span>
                                         
-                                        <i class="bi bi-snow2 img-fluid " style="color:white; font-size: 2rem; "></i>
+                                        <i class="bi bi-snow2 img-fluid" onclick="animation()" id="flake1" style="color:white; font-size: 2rem; "></i>
                                     </span>
                                 </button>
                             </h5>
@@ -426,7 +426,7 @@
                         </div>
                         <div data-toggle="collapse" data-target="#qs2">
                         <h5 class="card-title" style=" cursor: pointer;">I applied, when will decisions be released?
-                            <button class="navbar-toggler rotate"  data-toggle="collapse" data-target="#qs2">
+                            <button class="navbar-toggler"  data-toggle="collapse" data-target="#qs2">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem;"></i>
                                 </span>
@@ -445,7 +445,7 @@
                         </div>
                         <div data-toggle="collapse" data-target="#qs3">
                         <h5 class="card-title"style=" cursor: pointer;" >What platforms will be used on event day?
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs3">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs3">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -468,7 +468,7 @@
                        
                         <div data-toggle="collapse" data-target="#qs4">
                         <h5 class="card-title"style=" cursor: pointer;" >Where will yuHacks take place?
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs4">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs4">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -485,7 +485,7 @@
                         </div>
                         <div data-toggle="collapse" data-target="#qs5">
                         <h5 class="card-title"style=" cursor: pointer;" >I’m interested in sponsoring your event!
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs5">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs5">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -505,7 +505,7 @@
                     <div class="col-lg-6 text-left">
                         <div data-toggle="collapse" data-target="#qs6">
                         <h5 class="card-title"style=" cursor: pointer;" >What kind of events will there be?
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs6">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs6">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -526,7 +526,7 @@
                       
                         <div data-toggle="collapse" data-target="#qs7">
                         <h5 class="card-title"style=" cursor: pointer;" >How much does it cost to attend yuHacks?
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs7">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs7">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -543,7 +543,7 @@
                         </div>
                         <div data-toggle="collapse" data-target="#qs8">
                         <h5 class="card-title"style=" cursor: pointer;" >What if I’ve never been to a hackathon before?
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs8">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs8">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -561,7 +561,7 @@
                         </div>
                         <div data-toggle="collapse" data-target="#qs9">
                         <h5 class="card-title"style=" cursor: pointer;" >How many people can be on a team?
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs9">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs9">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -578,7 +578,7 @@
                         </div>
                         <div data-toggle="collapse" data-target="#qs10">
                         <h5 class="card-title"style=" cursor: pointer;" >Who can participate?
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs10">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs10">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -597,7 +597,7 @@
                             </div>
                             <div data-toggle="collapse" data-target="#qs11">
                         <h5 class="card-title"style=" cursor: pointer;" >When do applications open?
-                            <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs11">
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#qs11">
                                 <span>
                                     <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
                                 </span>
@@ -728,11 +728,6 @@
         });
     </script>
     <!-- Smooth Scroll Effect Ends -->
-    <script>
-        $(".rotate").click(function(){
- $(this).toggleClass("down")  ; 
-})
-    </script>
 </body>
 
 </html>

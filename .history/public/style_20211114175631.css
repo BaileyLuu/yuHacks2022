@@ -209,9 +209,9 @@ li a, #interestedInSponsor a{
   width: auto;
 } */
 .rotate{
-  -moz-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -moz-transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
 }
 
 .rotate.down{

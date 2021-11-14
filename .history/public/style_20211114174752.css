@@ -208,16 +208,12 @@ li a, #interestedInSponsor a{
   height: auto;
   width: auto;
 } */
-.rotate{
-  -moz-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+.flake1 {
+  animation: mymove 1s;
 }
 
-.rotate.down{
-  -moz-transform:rotate(90deg);
-  -webkit-transform:rotate(90deg);
-  transform:rotate(90deg);
+@keyframes mymove {
+  250% {transform: rotate(90deg);}
 }
 
 
