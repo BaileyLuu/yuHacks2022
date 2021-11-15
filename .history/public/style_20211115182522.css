@@ -2,7 +2,7 @@ html{
   scroll-behavior: smooth;
   background-color: #141c3c;
 }
-/* main background color*/ 
+ 
 .bg-psu {
   background-color: #141c3c;
 
@@ -179,6 +179,9 @@ li a, #interestedInSponsor a{
   -ms-transition: all .5s;
 }
 
+.changeDateSize {
+  font-size: 2em;
+}
 
 .sponsor-section {
   padding:20px;
@@ -187,7 +190,13 @@ li a, #interestedInSponsor a{
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   
 }
-
+.faq-section {
+  /* rgba(43, 142, 172, 0.7); */
+  background-color: hsla(0,0%,45%,.70);
+  padding:15px;
+  border-radius: 25px;
+  
+}
 .faq-answer {
   filter:brightness(180%);
 }
@@ -208,6 +217,12 @@ li a, #interestedInSponsor a{
   transform:rotate(90deg);
 }
 
+
+  
+/* .wrapper {
+  width: 100vw;
+  height: 100vh;
+} */
 .snow {
   border-radius: 90%;
   opacity: 0.8;

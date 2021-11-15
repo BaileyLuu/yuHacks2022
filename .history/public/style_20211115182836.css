@@ -208,6 +208,12 @@ li a, #interestedInSponsor a{
   transform:rotate(90deg);
 }
 
+
+  
+/* .wrapper {
+  width: 100vw;
+  height: 100vh;
+} */
 .snow {
   border-radius: 90%;
   opacity: 0.8;

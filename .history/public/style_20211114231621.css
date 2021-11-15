@@ -1,11 +1,5 @@
 html{
   scroll-behavior: smooth;
-  background-color: #141c3c;
-}
-/* main background color*/ 
-.bg-psu {
-  background-color: #141c3c;
-
 }
 li a, #interestedInSponsor a{
     font-size: 20px;
@@ -38,8 +32,6 @@ li a, #interestedInSponsor a{
       font-size: 5em;
 
   }
-  
-  /* Register button color*/
   .winter-neva-gradient {
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -48,7 +40,6 @@ li a, #interestedInSponsor a{
     box-shadow: 0 10px 20px -8px lightblue;
   }
   
-  /* social media buttons under Stay Connected*/
   .social-media:hover{
     transform: translateY(-5px);
     transition: all .5s;
@@ -58,7 +49,6 @@ li a, #interestedInSponsor a{
     -ms-transition: all .5s;
     filter:brightness(180%);
   }
-
   .up {
     position: relative;
     top: 0;       
@@ -81,7 +71,10 @@ li a, #interestedInSponsor a{
   .title{
     font-size: 4em;
   }
- 
+  .bg-psu {
+    background-color: #141c3c;
+
+  }
   nav {
     border: 0;
     filter: blur(0.25px);
@@ -112,11 +105,11 @@ li a, #interestedInSponsor a{
     opacity: 0.65;
     filter: blur(1.5px);
  } */
-  /* @keyframes snow {
+  @keyframes snow {
     to {
       transform: translateY(800px);
    }
- } */
+ }
 
 @-webkit-keyframes scroll {
   0% {
@@ -179,6 +172,9 @@ li a, #interestedInSponsor a{
   -ms-transition: all .5s;
 }
 
+.changeDateSize {
+  font-size: 2em;
+}
 
 .sponsor-section {
   padding:20px;
@@ -187,7 +183,13 @@ li a, #interestedInSponsor a{
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   
 }
-
+.faq-section {
+  /* rgba(43, 142, 172, 0.7); */
+  background-color: hsla(0,0%,45%,.70);
+  padding:15px;
+  border-radius: 25px;
+  
+}
 .faq-answer {
   filter:brightness(180%);
 }
@@ -208,6 +210,12 @@ li a, #interestedInSponsor a{
   transform:rotate(90deg);
 }
 
+
+  
+/* .wrapper {
+  width: 100vw;
+  height: 100vh;
+} */
 .snow {
   border-radius: 90%;
   opacity: 0.8;
@@ -225,7 +233,7 @@ li a, #interestedInSponsor a{
   animation-duration: 15s;
 }
 .layer1.a {
-  animation-delay: 2s;
+  animation-delay: -3s;
 }
 .layer2 {
   width: 0.8rem;
@@ -254,7 +262,7 @@ li a, #interestedInSponsor a{
   animation-duration: 20s;
 }
 .layer3.a {
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }
 @keyframes fall {
   100% {

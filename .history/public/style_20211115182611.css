@@ -2,7 +2,7 @@ html{
   scroll-behavior: smooth;
   background-color: #141c3c;
 }
-/* main background color*/ 
+ 
 .bg-psu {
   background-color: #141c3c;
 
@@ -179,6 +179,9 @@ li a, #interestedInSponsor a{
   -ms-transition: all .5s;
 }
 
+.changeDateSize {
+  font-size: 2em;
+}
 
 .sponsor-section {
   padding:20px;
@@ -187,7 +190,13 @@ li a, #interestedInSponsor a{
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   
 }
-
+.faq-section {
+  /* rgba(43, 142, 172, 0.7); */
+  background-color: hsla(0,0%,45%,.70);
+  padding:15px;
+  border-radius: 25px;
+  
+}
 .faq-answer {
   filter:brightness(180%);
 }
@@ -208,6 +217,12 @@ li a, #interestedInSponsor a{
   transform:rotate(90deg);
 }
 
+
+  
+/* .wrapper {
+  width: 100vw;
+  height: 100vh;
+} */
 .snow {
   border-radius: 90%;
   opacity: 0.8;
@@ -218,8 +233,8 @@ li a, #interestedInSponsor a{
   animation-iteration-count: infinite;
 }
 .layer1 {
-  width: 1rem;
-  height: 1rem;
+  width: 0.5rem;
+  height: 0.5rem;
   filter: blur(1.5px);
   box-shadow: 98.5vw 89.9vh 0 -0.43rem#fff,56.9vw 15.5vh 0 -0.46rem#fff,49.5vw 96.2vh 0 -0.09rem#fff,11.7vw 80.5vh 0 -0.28rem#fff,10.1vw 4.9vh 0 -0.32rem#fff,29.7vw 49.2vh 0 -0.14rem#fff,13.8vw 11.5vh 0 -0.27rem#fff,0.6vw 15.6vh 0 -0.24rem#fff,7vw 35.7vh 0 -0.14rem#fff,56.6vw 28vh 0 -0.4rem#fff,61.3vw 35.2vh 0 -0.5rem#fff,9vw 77.4vh 0 -0.03rem#fff,90.5vw 84.1vh 0 -0.43rem#fff,23.5vw 38.4vh 0 -0.21rem#fff,45.1vw 50.1vh 0 -0.08rem#fff,88.8vw 69.6vh 0 -0.37rem#fff,20.1vw 15.4vh 0 -0.06rem#fff,0.4vw 48.5vh 0 -0.35rem#fff,82.8vw 42.2vh 0 -0.31rem#fff,62vw 75.4vh 0 -0.04rem#fff,16.4vw 32.1vh 0 -0.08rem#fff,64vw 76.3vh 0 -0.21rem#fff,36.7vw 71vh 0 -0.17rem#fff,93.2vw 43.3vh 0 -0.43rem#fff,2.4vw 79.4vh 0 -0.04rem#fff,7.6vw 90.3vh 0 -0.29rem#fff,86.2vw 65.1vh 0 -0.14rem#fff,98.7vw 63.7vh 0 -0.22rem#fff,72.4vw 44.8vh 0 -0.26rem#fff,69.8vw 67vh 0 -0.21rem#fff,98.9vw 91.9vh 0 -0.32rem#fff,84.1vw 12.9vh 0 -0.21rem#fff,5.4vw 10.5vh 0 -0.17rem#fff,85.1vw 22.8vh 0 -0.09rem#fff,69.3vw 30.8vh 0 -0.18rem#fff,90.9vw 74.1vh 0 -0.17rem#fff,39.7vw 68.8vh 0 -0.09rem#fff,6.5vw 75.2vh 0 -0.19rem#fff,42.1vw 94.2vh 0 -0.32rem#fff,47.2vw 7.5vh 0 -0.35rem#fff,11.6vw 8vh 0 -0.45rem#fff,40.3vw 10.2vh 0 -0.31rem#fff,98.8vw 77.3vh 0 -0.15rem#fff,69.9vw 29.1vh 0 -0.27rem#fff,85.6vw 32.6vh 0 -0.06rem#fff,26.2vw 35.9vh 0 -0.43rem#fff,86.5vw 89.9vh 0 -0.3rem#fff,36.4vw 55.4vh 0 -0.42rem#fff,49.3vw 67.5vh 0 -0.27rem#fff,32vw 45.3vh 0 -0.46rem#fff,61vw 92.9vh 0 -0.47rem#fff,28.8vw 87.1vh 0 -0.21rem#fff,61.2vw 40.3vh 0 -0.26rem#fff,43.4vw 37.2vh 0 -0.26rem#fff,28.3vw 96.8vh 0 -0.32rem#fff,87.8vw 89.9vh 0 -0.15rem#fff,80.4vw 22.2vh 0 -0.5rem#fff,40.7vw 70.2vh 0 -0.25rem#fff,12.3vw 86.6vh 0 -0.03rem#fff,78.3vw 14.8vh 0 -0.4rem#fff,21.1vw 73.2vh 0 -0.49rem#fff,82vw 18.4vh 0 -0.36rem#fff,11.3vw 72.5vh 0 -0.27rem#fff,44.6vw 86vh 0 -0.31rem#fff,50.8vw 47.5vh 0 -0.17rem#fff,48.2vw 63.9vh 0 -0.02rem#fff,91.4vw 33.4vh 0 -0.19rem#fff,31.3vw 14.8vh 0 -0.26rem#fff,64.6vw 18.1vh 0 -0.48rem#fff,27.5vw 57.3vh 0 -0.41rem#fff,32vw 31.9vh 0 -0.44rem#fff,42.4vw 60.7vh 0 -0.16rem#fff,19.3vw 53.3vh 0 -0.03rem#fff,60.6vw 52.1vh 0 -0.02rem#fff,18.1vw 62.4vh 0 -0.41rem#fff,23.4vw 3.6vh 0 -0.39rem#fff,58.2vw 90.9vh 0 -0.31rem#fff,6vw 17.7vh 0 -0.08rem#fff,26.2vw 55.1vh 0 -0.23rem#fff,59.3vw 38.8vh 0 -0.29rem#fff,9.3vw 93.3vh 0 -0.37rem#fff,97.5vw 23.3vh 0 -0.37rem#fff,21.2vw 99.1vh 0 -0.38rem#fff,35.8vw 5.4vh 0 -0.22rem#fff,96.6vw 61.4vh 0 -0.04rem#fff,49.4vw 26.9vh 0 -0.41rem#fff,98.6vw 93.4vh 0 -0.35rem#fff,64.4vw 95.6vh 0 -0.12rem#fff,4.7vw 29.2vh 0 -0.12rem#fff,40vw 4.3vh 0 -0.04rem#fff,34.6vw 12.9vh 0 -0.47rem#fff,51.7vw 50.9vh 0 -0.01rem#fff,37.1vw 63.2vh 0 -0.17rem#fff,61.8vw 78.1vh 0 -0.14rem#fff,43.4vw 28.4vh 0 -0.22rem#fff,3.1vw 24vh 0 -0.4rem#fff,3.6vw 65vh 0 -0.35rem#fff,23.2vw 26.1vh 0 -0.44rem#fff,33.7vw 80.3vh 0 -0.19rem#fff,16.2vw 51.2vh 0 -0.47rem#fff,69.4vw 78.9vh 0 -0.11rem#fff,17.8vw 5.8vh 0 -0.26rem#fff,30.2vw 67.5vh 0 -0.49rem#fff,19.3vw 84.1vh 0 -0.49rem#fff,55vw 97vh 0 -0.38rem#fff,1.6vw 34.9vh 0 -0.37rem#fff,87.6vw 94.1vh 0 -0.43rem#fff,27.9vw 9.2vh 0 -0.24rem#fff,53.6vw 83.8vh 0 -0.27rem#fff,69.5vw 32vh 0 -0.17rem#fff,45.2vw 18.6vh 0 -0.32rem#fff,32.6vw 44.9vh 0 -0.27rem#fff,48.5vw 90vh 0 -0.13rem#fff,68.3vw 98.2vh 0 -0.41rem#fff,24.9vw 20.9vh 0 -0.48rem#fff,3.7vw 50.6vh 0 -0.47rem#fff,49.8vw 62.9vh 0 -0.25rem#fff,3.2vw 91.8vh 0 -0.34rem#fff,7.4vw 91.3vh 0 -0.47rem#fff,58.5vw 34.1vh 0 -0.06rem#fff,56.2vw 18.7vh 0 -0.29rem#fff,72vw 80.2vh 0 -0.04rem#fff,16.9vw 94.9vh 0 -0.25rem#fff,40.1vw 15.6vh 0 -0.48rem#fff,4.9vw 14.5vh 0 -0.31rem#fff,8vw 5.2vh 0 -0.1rem#fff,39.1vw 91.2vh 0 -0.3rem#fff,10.1vw 30vh 0 -0.41rem#fff,43.4vw 80.8vh 0 -0.29rem#fff,68.2vw 45.4vh 0 -0.01rem#fff,87.2vw 5vh 0 -0.5rem#fff,34.9vw 66.4vh 0 -0.19rem#fff,67.7vw 87.9vh 0 -0.27rem#fff,63.1vw 26.8vh 0 -0.11rem#fff,51.6vw 84.3vh 0 -0.24rem#fff,65.8vw 44.8vh 0 -0.14rem#fff,57.7vw 94.4vh 0 -0.05rem#fff,38.6vw 82.4vh 0 -0.11rem#fff,90.4vw 67vh 0 -0.22rem#fff,29.4vw 48.5vh 0 -0.11rem#fff,24.7vw 25.1vh 0 -0.05rem#fff,66.2vw 72.8vh 0 -0.18rem#fff,83vw 40vh 0 -0.3rem#fff,72.9vw 38.2vh 0 -0.45rem#fff,76.1vw 81.4vh 0 -0.03rem#fff,15.5vw 78.6vh 0 -0.14rem#fff,20.6vw 28.6vh 0 -0.15rem#fff,58.1vw 97vh 0 -0.24rem#fff,50.5vw 1.3vh 0 -0.26rem#fff,86.3vw 92vh 0 -0.39rem#fff,1.5vw 70.8vh 0 -0.44rem#fff,39vw 20.9vh 0 -0.03rem#fff,41.3vw 96vh 0 -0.19rem#fff,56.2vw 75.8vh 0 -0.45rem#fff,83.3vw 54.7vh 0 -0.03rem#fff,82.6vw 16.4vh 0 -0.36rem#fff,86.5vw 32vh 0 -0.17rem#fff,53.1vw 57.7vh 0 -0.12rem#fff,61.8vw 45vh 0 -0.23rem#fff,90vw 16.7vh 0 -0.04rem#fff,17.2vw 1.3vh 0 -0.34rem#fff,97.6vw 12.4vh 0 -0.34rem#fff,43.8vw 24.1vh 0 -0.3rem#fff,49.7vw 71.8vh 0 -0.44rem#fff,20.1vw 0.8vh 0 -0.39rem#fff,16.9vw 24.7vh 0 -0.39rem#fff,20.1vw 61.6vh 0 -0.4rem#fff,92.1vw 28.3vh 0 -0.13rem#fff,74.3vw 47.4vh 0 -0.16rem#fff,13.7vw 27.4vh 0 -0.04rem#fff,65.2vw 96.9vh 0 -0.23rem#fff,38.1vw 29.1vh 0 -0.5rem#fff,12.3vw 97vh 0 -0.35rem#fff,84.2vw 67.4vh 0 -0.35rem#fff,48.9vw 31.9vh 0 -0.4rem#fff,93.4vw 21.7vh 0 -0.14rem#fff,46.1vw 20.7vh 0 -0.34rem#fff,53.9vw 60.1vh 0 -0.36rem#fff,48.3vw 84.4vh 0 -0.18rem#fff,93vw 11.1vh 0 -0.06rem#fff,10.8vw 66.9vh 0 -0.33rem#fff,98.4vw 28.9vh 0 -0.23rem#fff,30.2vw 66.5vh 0 -0.25rem#fff,72.6vw 55.3vh 0 -0.44rem#fff,65.8vw 92.7vh 0 -0.04rem#fff,97.3vw 9.1vh 0 -0.31rem#fff,79.2vw 52.5vh 0 -0.16rem#fff,52.2vw 38.9vh 0 -0.12rem#fff,46.1vw 79.2vh 0 -0.01rem#fff,59vw 62vh 0 -0.01rem#fff,77.3vw 6.4vh 0 -0.5rem#fff,78.1vw 2.2vh 0 -0.32rem#fff,21.4vw 33vh 0 -0.18rem#fff,1.4vw 75.5vh 0 -0.04rem#fff,35.5vw 62.9vh 0 -0.27rem#fff,18.9vw 17.6vh 0 -0.14rem#fff,0.6vw 99.3vh 0 -0.4rem#fff,76vw 67.7vh 0 -0.44rem#fff,3vw 70vh 0 -0.03rem#fff,52.2vw 40.4vh 0 -0.01rem#fff;
   animation-duration: 15s;
