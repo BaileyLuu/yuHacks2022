@@ -1,4 +1,4 @@
-// COUNTDOWN TIMER STARTS HERE //
+// Countdown to event date
 var countDownDate = new Date("Feb 18, 2022 10:00:00").getTime();
 
 // Update the count down every 1 second
@@ -26,7 +26,6 @@ var x = setInterval(function () {
         document.getElementById("demo").innerHTML = "EXPIRED";
     }
 }, 1000);
-// COUNTDOWN TIMER ENDS HERE //
 
   
   // Track switching
@@ -126,4 +125,11 @@ var x = setInterval(function () {
   // Init AOS
   AOS.init();
   
- 
+  // Navbar collapse on link click
+  $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+  
+  $(".rotate").click(function(){
+    $(this).toggleClass("down")  ; 
+   })

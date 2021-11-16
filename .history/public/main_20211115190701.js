@@ -1,4 +1,4 @@
-// COUNTDOWN TIMER STARTS HERE //
+// Countdown to event date
 var countDownDate = new Date("Feb 18, 2022 10:00:00").getTime();
 
 // Update the count down every 1 second
@@ -26,9 +26,52 @@ var x = setInterval(function () {
         document.getElementById("demo").innerHTML = "EXPIRED";
     }
 }, 1000);
-// COUNTDOWN TIMER ENDS HERE //
-
   
+  document.addEventListener('DOMContentLoaded', () => {
+    countDown('days', 'hours', 'minutes', 'seconds', new Date(2022, 02, 18));
+  });
+  
+  // Scroll to top
+  var scrollToTopBtn = document.getElementById('scrollToTopBtn');
+  var rootElement = document.documentElement;
+  
+  function scrollToTop() {
+    // Scroll to top logic
+    rootElement.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+  scrollToTopBtn.addEventListener('click', scrollToTop);
+  
+  //Smooth Scroll Effect that works for all browser //
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        } // End if
+    });
+});
+//-----------------------------------------------------//
+
+
   // Track switching
   var data = {
     track1: {
@@ -126,4 +169,11 @@ var x = setInterval(function () {
   // Init AOS
   AOS.init();
   
- 
+  // Navbar collapse on link click
+  $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+  
+  $(".rotate").click(function(){
+    $(this).toggleClass("down")  ; 
+   })

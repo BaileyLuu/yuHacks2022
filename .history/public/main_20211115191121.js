@@ -126,4 +126,11 @@ var x = setInterval(function () {
   // Init AOS
   AOS.init();
   
- 
+  // Navbar collapse on link click
+  $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+  
+  $(".rotate").click(function(){
+    $(this).toggleClass("down")  ; 
+   })
