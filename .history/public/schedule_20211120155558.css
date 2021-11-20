@@ -18,7 +18,7 @@ body {
   display:flex;
   flex-direction: column;
   width: 300px;
-  height:10vh;
+  height:5vh;
   box-sizing: border-box;
   line-height: 4vh;
   flex-wrap: wrap;
@@ -78,8 +78,4 @@ body {
   -o-transform : scale(1.05);
   -ms-transform : scale(1.05);
  border: solid 3px #f8f7f7;
-}
-.event-type{
-  border-radius: 25px;
-  pointer-events: none;
 }

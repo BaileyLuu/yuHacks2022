@@ -35,31 +35,24 @@
     <link rel="stylesheet" href="./schedule.css">
     <script src="schedule.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <title>yuHacks Schedule</title>
 </head>
 
 <body>
-    <h2 class="text-primary title text-center" style="filter:brightness(180%);">February 14th, 2022</h1>
-        <button>Toggle</button>
+ 
         <div class="m-3 text-white">
-                
-
+            <h2 class="text-primary title text-center" style="filter:brightness(180%);">February 14th, 2022</h1>
                 <div class="schedule-table">
 
                     <div class="box schedule-time mb-1 ">
                         <div class="schedule-time" style="width: 100px;">10:00 AM</div>
-                        <div class="session-box schedule-time up"data-toggle="modal" data-target="#exampleModalCenter"><strong>Opening Ceremony</strong>
-                           
-                        </div>
-                        <!-- Modal -->
-
+                        <div class="session-box schedule-time up"><strong>Opening Ceremony</strong></div>
                         
                     </div>
             
                     <div class="box schedule-time">
                         <div class="schedule-time" style="width: 100px;">11:00 AM</div>
-                        <div class="session-box schedule-time up"><strong>Introduction to GIT/Github</strong>
+                        <div class="session-box half-hour schedule-time up"><strong>Introduction to GIT/Github</strong>
                            </div>
 
                     </div>
@@ -70,9 +63,7 @@
                     </div>
                     <div class="box schedule-time">
                         <div class="chedule-time" style="width: 100px;">01:00 PM</div>
-                        <div class="schedule-time session-box mt-1 up"><strong>Intro to Tensorflow</strong></div>
-                        <div class="schedule-time session-box mt-1 up mx-3"><strong>Among Us</strong></div>
-
+                        <div class="half-hour schedule-time session-box mt-1 up"><strong>Paint Bob Ross</strong></div>
                         
                     </div>
                     <div class="box schedule-time  mb-3">
@@ -80,8 +71,6 @@
                     </div>
                     <div class="box schedule-time  mb-3">
                         <div class="schedule-time" style="width: 100px;">03:00 PM</div>
-                        <div class="schedule-time session-box mt-1 up"><strong>Intro to UI/UX</strong></div>
-
                     </div>
                     <div class="box schedule-time  mb-3">
                         <div class="schedule-time" style="width: 100px;">04:00 PM</div>
@@ -112,28 +101,6 @@
         </div>
 
 
-        <div class="modal fade" id="exampleModalCenter" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">Opening Ceremony</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                 Time: 10:00 AM - 11:00 AM
-                 <div class="event-type btn" style="background-color: aqua;" role="button" >Main Event</div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -152,11 +119,6 @@
 
         );
     </script>
-    <!-- <script>
-        $( "button" ).click(function() {
-          $( "div" ).slideToggle( "slow" );
-        });
-        </script> -->
 </body>
 
 </html>

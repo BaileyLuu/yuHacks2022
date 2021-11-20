@@ -6,13 +6,12 @@ body {
   display:flex;
   flex-direction: column;
   width: 300px;
-  height:15vh;
+  height:14vh;
   box-sizing: border-box;
   z-index: 50;
   line-height: 5vh;
   flex-wrap: wrap;
   /* justify-content: left; */
-  border-radius: 7px;
 }
 .half-hour{
   display:flex;
@@ -23,7 +22,6 @@ body {
   line-height: 4vh;
   flex-wrap: wrap;
   justify-content: left;
-  border-radius: 7px;
 }
 .session-box{
   background-image: linear-gradient(120deg, #a1c4fd 0%, #95cde7 100%);
@@ -34,7 +32,6 @@ body {
   padding-left: 15px;
   font-size: 21px !important;
   justify-content: left;
-  border-radius: 7px;
 }
 .extra-time{
   /* background-image: linear-gradient(180deg, #c2e9fb 100%, #a1c4fd 100%); */
@@ -58,7 +55,7 @@ body {
   flex: 1 1 70px;
 } */
 .title{
-  font-size: 2.5em;
+  font-size: 4em;
 }
 .up {
   position: relative;
@@ -78,8 +75,4 @@ body {
   -o-transform : scale(1.05);
   -ms-transform : scale(1.05);
  border: solid 3px #f8f7f7;
-}
-.event-type{
-  border-radius: 25px;
-  pointer-events: none;
 }

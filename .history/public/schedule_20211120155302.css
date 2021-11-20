@@ -79,7 +79,3 @@ body {
   -ms-transform : scale(1.05);
  border: solid 3px #f8f7f7;
 }
-.event-type{
-  border-radius: 25px;
-  pointer-events: none;
-}

@@ -5,25 +5,22 @@ body {
 .schedule-time{
   display:flex;
   flex-direction: column;
-  width: 300px;
-  height:15vh;
+  width: 200px;
+  height:14vh;
   box-sizing: border-box;
   z-index: 50;
   line-height: 5vh;
   flex-wrap: wrap;
-  /* justify-content: left; */
-  border-radius: 7px;
 }
 .half-hour{
   display:flex;
   flex-direction: column;
-  width: 300px;
-  height:10vh;
+  width: 200px;
+  height:9vh;
   box-sizing: border-box;
   line-height: 4vh;
   flex-wrap: wrap;
-  justify-content: left;
-  border-radius: 7px;
+  justify-content: flex-start;
 }
 .session-box{
   background-image: linear-gradient(120deg, #a1c4fd 0%, #95cde7 100%);
@@ -31,10 +28,8 @@ body {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   position:relative;
   flex-wrap: wrap;
-  padding-left: 15px;
-  font-size: 21px !important;
-  justify-content: left;
-  border-radius: 7px;
+  padding-left: 20px;
+  font-size: 20px !important;
 }
 .extra-time{
   /* background-image: linear-gradient(180deg, #c2e9fb 100%, #a1c4fd 100%); */
@@ -58,28 +53,5 @@ body {
   flex: 1 1 70px;
 } */
 .title{
-  font-size: 2.5em;
-}
-.up {
-  position: relative;
-  top: 0;       
-  transition: all .5s;
-  -moz-transition: all .5s;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  -ms-transition: all .5s;
-        }
-
-.up:hover {
-  top: -1px;
-  transform : scale(1.05);
-  -moz-transform : scale(1.05);
-  -webkit-transform : scale(1.05);
-  -o-transform : scale(1.05);
-  -ms-transform : scale(1.05);
- border: solid 3px #f8f7f7;
-}
-.event-type{
-  border-radius: 25px;
-  pointer-events: none;
+  font-size: 4em;
 }
