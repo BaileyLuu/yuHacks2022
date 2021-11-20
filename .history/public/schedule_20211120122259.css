@@ -1,0 +1,18 @@
+/* body {
+    background-color: #141c3c;
+  } */
+
+.schedule-time{
+  display:flex;
+  flex-direction: column;
+  width:10vw;
+  height:10vh;
+  box-sizing: border-box;
+  z-index: 50;
+ 
+}
+.schedule-table{
+  display:flex;
+  flex-direction:column;
+
+}

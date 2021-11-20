@@ -1,0 +1,8 @@
+body {
+    background-color: #141c3c;
+  }
+
+.schedule-time{
+  display:flex;
+  flex-direction: column;
+}
