@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- AOS CSS Library CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <title>yuHacks</title>
+</head>
+<banner width=75>
+    <body class="bg-psu">
+</banner>
+
+
+<body data-spy="scroll" data-target="#main_nav">
+    <div class="snow layer1"></div>
+
+    <div class="snow layer2 "> </div>
+
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg navbar-white" id="main_nav">
+        <div class="container" id="home">
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span>
+                    <i class="bi bi-list" style="color:white; font-size: 2rem; "></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarMenu">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/yuHacksLogo/yuHacks-Logo@2x.png" style="filter:brightness(300%);" width="80"
+                        height="80" alt="yuHacks logo">
+                </a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style="filter:brightness(300%);" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="filter:brightness(300%);" href="#register">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="filter:brightness(300%);" href="#tracks">Tracks</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" style="filter:brightness(300%);" href="#sponsors">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="filter:brightness(300%);" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="filter:brightness(300%);" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- <button class="btn btn-outline-success my-2 my-sm-0 " onClick="myfunction()" target="_blank" type="submit">Schedule</button> -->
+            </div>
+
+        </div>
+        <!-- <a id="mlh-trust-badge"
+           style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
+           href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=blue"
+           target="_blank"><img
+               src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-blue.svg"
+               alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a> -->
+
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Home Starts -->
+    <section id="home" class="bg-psu text-blue text-sm-left text-left pb-sm-5" style="height:650px">
+        <div class="container text-sm-left ">
+            <div class="d-sm-flex text-sm-left ">
+                <div class="col-md" width="500px" height="500px">
+                    <br><br><br><br>
+                    <h1 id="yuHacks" class="text-primary mb-3"
+                        style="filter:brightness(180%); text-decoration: underline;">yuHacks</h1>
+                    <h3 class="text-white my-4">February 14 - 19, 2022</h3>
+                    <i class="bi bi-geo-alt text-white my-4" style="font-size: 1.5em"> Hybrid</i>
+                    <h2 id="demo" class="text-white my-4 text-sm-left"></h2>
+                    <button class="btn winter-neva-gradient up" style="font-size: 20px;">REGISTER NOW</button>
+                    <h3 class="text-white my-4">Stay Connected</h3>
+                    <div class="p-3 row">
+                        <a href="https://www.instagram.com/yuhacks/" target="_blank">
+                            <div class="bi bi-instagram social-media text-primary"
+                                style="font-size: 3em; filter: brightness(180%); margin-right: 10px;"></div>
+                        </a>
+                        <a href="https://discord.gg/JaapPA8" target="_blank">
+                            <div class="bi bi-discord social-media text-primary"
+                                style="font-size: 3em; filter: brightness(180%);  margin-right: 10px;"></div>
+                        </a>
+                        <a href="https://www.linkedin.com/company/yuhacks/" target="_blank">
+                            <div class="bi bi-linkedin social-media text-primary"
+                                style="font-size: 3em;filter: brightness(180%);  margin-right: 10px;"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row-md text-right ms-3" style="margin: auto; width: auto;">
+                        <img class="img-fluid  d-none d-md-block " src="./assets/tracks/AppDev.png" 
+                        alt="cloud">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Ends -->
+
+    <!-- About Starts -->
+    <section id="about" class="p-2 d-lg-5 bg-psu text-sm-left">
+        <div class="container">
+            <div class="row align-items-left justify-content-between ">
+                <div class="col-md ml-auto">
+                    <img class="img-fluid d-none d-sm-block" style="filter:brightness(180%);"
+                        src="./assets/yuHacksLogo/Digital Lion-2.svg" width="100%" height="auto" alt="yuHacks logo">
+                </div>
+                <div class="col-md p-3 text-sm-left d-sm-mt-5">
+                    <h2 class="text-primary title" style="filter:brightness(180%);">About yuHacks</h1>
+                        <p class="lead text-sm-left text-white" style="font-size:1.5em">
+                            yuHacks is York University’s 24-hour virtual hackathon by students, for students. We spent
+                            months interviewing fellow students to understand how we could best serve them through our
+                            hackathon. The predominant theme was that students wanted a focus on
+                            as they prepare to enter a highly competitive modern workforce.
+                            Through yuHacks, we hope to present attendees with the opportunity to better their
+                            professional
+                            selves while engaging in all the fun
+                            you’d expect from a hackathon.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Ends -->
+
+    <section class="bg-psu p-2">
+        <div class="container text-center">
+            <div class=" row  justify-content-center d-sm-inline-flex">
+                <div class="bg-psu bi bi-hourglass-split text-white m-3 " style="font-size: 3em;"> 24 hours
+                </div>
+                <div class="bg-psu bi bi-pencil-square text-white m-3" style="font-size: 3em;"> 250+ registrations
+                </div>
+
+            </div>
+            <div class=" row  justify-content-center d-sm-inline-flex">
+                <div class=" bg-psu bi bi-people-fill text-white m-3" style="font-size: 3em;"> 150+ submitters
+                </div>
+                <div class=" bg-psu bi bi-laptop text-white m-3" style="font-size: 3em;"> 50+ project submissions
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- <div class="snow"></div> -->
+
+    <!-- Register Starts -->
+    <section id="register" class="bg-psu text-sm-left p-2 my-5">
+        <div class="container">
+            <h1 class="text-primary title " style="filter:brightness(180%);">Register</h1>
+                <div class="row text-left img-fluid pt-5">
+                    <!-- width="300px" height="490px" -->
+                    <div class="col-md mb-3">
+                        <img class="img-fluid" src="./assets/Coder.png" width="180px" height="300px"
+                            alt="Hacker">
+
+                        <div class="card text-dark border-0 bg-psu" style="background-color: transparent;">
+                            <div class="card-body text-center">
+
+
+                                <h3 class="card-title text-white mb-3" style="font-size:2em">
+                                    HACKER
+                                </h3>
+                                <button class="btn winter-neva-gradient up" style="font-size: 20px;">REGISTER</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md mb-3 mt-4">
+                        <img class="img-fluid" src="./assets/Chat.png"  width="400px" height="400px"alt="Volunteer">
+
+                        <div class="card text-dark border-0" style="background-color: transparent;">
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-white mb-3" style="font-size:2em">
+                                    VOLUNTEER
+                                </h3>
+                                <button class="btn winter-neva-gradient up" style="font-size: 20px;">REGISTER</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md mb-3 mt-4">
+                        <img class="img-fluid" src="./assets/Project.png" alt="Mentor">
+
+                        <div class="card text-dark border-0" style="background-color: transparent;">
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3 text-white" style="font-size:2em">
+                                    MENTOR
+                                </h3>
+                                <button class="btn winter-neva-gradient up" style="font-size: 20px;">REGISTER</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- Register Ends -->
+   
+    <!-- Tracks Starts -->
+    <section id="tracks" class="bg-psu p-2">
+      
+        <div class="container text-sm-left" width="100%">
+            <h2 class="text-primary title" style="filter:brightness(180%);">Tracks</h1>
+
+            <div  id="carouselExampleIndicators"class="carousel slide pt-5">
+                <ol class="carousel-indicators" data-interval="false">
+                    <li data-target="#carouselExampleIndicators"data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li  data-target="#carouselExampleIndicators"data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li  data-target="#carouselExampleIndicators"data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators"data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+
+                </ol>
+                <div class="carousel-inner"role="listbox">
+                    <div class="carousel-item active track-section" style="background-color: #f78d31bd;
+                    background-image: linear-gradient(315deg, #ff8316b4 0%, #ff3d57ce 74%);"  style=" width:100%; height: 900px !important;" >
+                            <div class="row align-items-left justify-content-between ">
+                                <div class="col-md ml-auto">
+                                    <!-- d-none d-md-block -->
+                                    <img class="img-fluid " src="./assets/tracks/Health.png" width="100%" height="auto"
+                                    alt="Health Care">
+                                </div>
+                                <div class="col-md p-3 text-sm-left d-sm-mt-5">
+                                    <h1 class="text-white" > <strong>Health Care</strong></h1>
+                                        <p class="lead text-sm-left text-white" style="font-size:1.5em">
+                                            This challenge is open to teams who have ideas on rethinking Healthcare.
+                                            Do you have a new idea on how to make tracking pandemics like COVID-19 more easily? Do you see an issue in the healthcare system that you think you could help solve such as wearable technologies, identifying diseases, virtual medicine, or even 3D Printing? This challenge is for you!
+                                        </p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="carousel-item  track-section" style="background-color: #34ce89bd;
+                    background-image: linear-gradient(315deg, #25e08caf 0%, #48caf1b6 74%);
+                    " >
+                            <div class="row align-items-left justify-content-between ">
+                                <div class="col-md ml-auto">
+                                    <img class="img-fluid" src="./assets/tracks/Education.png" width="100%"height="auto"
+                                    alt="Education">
+                                </div>
+                                <div class="col-md p-3 text-sm-left d-sm-mt-5">
+                                    <h1 class="text-white" > <strong>Education</strong></h1>
+                                        <p class="lead text-sm-left text-white" style="font-size:1.5em">
+                                            Tired of Zoom University? This challenge is open to teams
+                                            who want to rethink education. Whether tackling the struggles of online education or
+                                            developing an app that enhances traditional education, teams will have their work cut
+                                            out for them with this track!
+                                        </p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="carousel-item  track-section"  style="background-color: #a067dab4;
+                    background-image: linear-gradient(315deg, #a969e9b2 0%, #2f54f7b4 74%);
+                    
+                    ">
+                        <div class="row align-items-left justify-content-between ">
+                            <div class="col-md ml-auto">
+                                <img class="img-fluid" src="./assets/tracks/Virtual.png" width="100%" height="auto"
+                                alt="Technology">
+                            </div>
+                            <div class="col-md p-3 text-sm-left d-sm-mt-5">
+                                <h1 class="text-white"> <strong>Technology</strong></h1>
+                                    <p class="lead text-sm-left text-white" style="font-size:1.5em">
+                                        Do you have an idea on how to solve a problem, or make something cool using AR/VR, Raspberry Pi, or Arduino? Do you have ideas on how to improve existing or new technologies? Then this is the challenge for you!                                     </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  track-section" style="background-color: #00b712b0;
+                    background-image: linear-gradient(315deg, #00b712a8 0%, #5bff15b7 74%);">
+                        <div class="row align-items-left justify-content-between " >
+                            <div class="col-md ml-auto">
+                                <img class="img-fluid" src="./assets/tracks/sustainability.png" width="100%" height="auto"
+                                alt="Sustainability">
+                            </div>
+                            <div class="col-md p-3 text-sm-left d-sm-mt-5">
+                                <h1 class="text-white"> <strong>Sustainability</strong></h1>
+                                    <p class="lead text-sm-left text-white" style="font-size:1.5em">
+                                        Have an idea for a hack that looks to solve pressing
+                                environmental issues? This challenge is open to teams who want to tackle big problems
+                                like climate change, food waste, and biodiversity loss (just to name a few). 
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  track-section" style="background-color: #4dd7d5d3;">
+                        <div class="row align-items-left justify-content-between ">
+                            <div class="col-md ml-auto">
+                                <img class="img-fluid" src="./assets/tracks/newHacker.png" width="100%" height="auto" alt="New Hacker"> 
+                            </div>
+                            <div class="col-md p-3 text-sm-left d-sm-mt-5">
+                                <h1 class="text-white" > <strong>New Hacker</strong></h1>
+                                    <p class="lead text-sm-left text-white" style="font-size:1.5em">
+                                        New to hackathons? Don't know how to code? No worries! You
+                                        will be provided with resources to learn
+                                        and be successful at yuHacks. This challenge is opened to teams where majority of the
+                                        members are attending their first hackathon.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  track-section" style="background-color: #7973d4d0;">
+                        <div class="row align-items-left justify-content-between ">
+                            <div class="col-md ml-auto">
+                                <img class="img-fluid" src="./assets/tracks/Designer.png" width="100%" height="auto" alt="Non-technical">
+                            </div>
+                            <div class="col-md p-3 text-sm-left d-sm-mt-5">
+                                <h1 class="text-white" > <strong>Non-technical</strong></h1>
+                                    <p class="lead text-sm-left text-white" style="font-size:1.5em">
+                                        Not much of a developer? Still want to tackle challenges and
+                                        explore ideas? This challenge
+                                        is open to anyone who submitted a project in which they did not write any code.
+                                        Examples: powerpoint presentations,
+                                        business proposals, or merely a pitch.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  track-section" style="background-color: #ffd519d0;" >
+                        <div class="row align-items-left justify-content-between ">
+                            <div class="col-md ml-auto">
+                                <img class="img-fluid" src="./assets/tracks/Inclusivity.png" width="100%" height="auto" alt="Inclusivity">
+                            </div>
+                            <div class="col-md p-3 text-sm-left d-sm-mt-5">
+                                <h1 class="text-white" > <strong>Inclusivity</strong></h1>
+                                    <p class="lead text-sm-left text-white" style="font-size:1.5em">
+                                       This track addresses inclusion and equality. How can we ensure that everyone has equal access to opportunities and resources? Your hack can solve problems such as social injustice, discrimination, and other barriers to inclusion.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+
+    </section>
+    <!-- Tracks Ends -->
+
+    <!-- Prizes Starts -->
+
+    <!-- Prizes Ends -->
+
+    <!-- Schedule Starts -->
+    <!-- <section id="schedule" class="bg-psu text-sm-left p-2 ">
+      <div class="container">
+          <div class="row text-left">
+              <div class="col-md mb-3">
+                  <h2 class="text-primary title" style="filter:brightness(180%);">Schedule</h1>
+                      <iframe class="airtable-embed"
+                          src="https://airtable.com/embed/shrRSrUO48x93Md6q?backgroundColor=blue&viewControls=on"
+                          frameborder="0" onmousewheel="" width="100%" height="650"
+                          style="background: transparent; border: 1px solid #ccc;"></iframe>
+              </div>
+          </div>
+      </div>
+  </section> -->
+    <!-- Schedule Ends -->
+
+    <!-- Sponsor Starts -->
+    <section class="bg-psu p-2 text-sm-left pt-5" id="sponsors">
+        <div class="container">
+            <h2 class="text-primary title" style="filter:brightness(180%);">Our sponsors & partners</h1>
+                <div class="container sponsor-section my-3">
+                    <div class="row " style="justify-content:center">
+                        <div class="alpha-sponsor">
+                            <a href="https://lassonde.yorku.ca" target="_blank"><img
+                                    src="./assets/sponsors/lassondeYork.png"
+                                    title="Lassonde School of Engineering York University" class="img-fluid"
+                                    width="800px" height="800px" alt="Lassonde and York"></a>
+                        </div>
+                        <div class="alpha-sponsor my-3">
+                            <a href="https://cloud.google.com" target="_blank"><img
+                                    src="./assets/sponsors/google_cloud.png" title="Google Cloud" class="img-fluid"
+                                    width="650px" height="650px" alt="Google Cloud"></a>
+                        </div>
+                    </div>
+
+                    <h4 class="text-center">___________________</h4>
+
+                    <div class="row " style="justify-content:center">
+                        <div class="alpha-sponsor mx-3 p-3">
+                            <a href="https://www.stickermule.com" target="_blank"><img
+                                    src="./assets/sponsors/sticker-mule-logo.svg" title="Sticker Mule" class="img-fluid"
+                                    width="120px" height="120px" alt="Sticker Mule"></a>
+                            <br>
+                        </div>
+                        <div class="alpha-sponsor mxy-3 p-3">
+                            <a href="https://www.wolfram.com/language/" target="_blank"><img
+                                    src="./assets/sponsors/wolfram.png" title="Wolfram" class="img-fluid d-sm-block"
+                                    width="200px" height="200px" alt="Wolfram"></a>
+                        </div>
+
+                    </div>
+
+
+                    <h4 class="text-center">___________________</h4>
+
+                    <div class="row" style="justify-content:center">
+                        <div class="alpha-sponsor mx-3 p-3">
+                            <a href="https://dscyorku.tech" title="Developer Student Clubs York University"
+                                target="_blank"><img src="./assets/partners/dscYorkU.png" class="img-fluid"
+                                    width="320px" height="320px" alt="GDSCYorkU"></a>
+                        </div>
+                        <div class="alpha-sponsor mx- p-3">
+                            <a href="https://yorkurobotics.com" title="York University Robotics Society"
+                                target="_blank"><img src="./assets/partners/YURS.png" class="img-fluid" width="80px"
+                                    height="80px" alt="YURS"></a>
+                        </div>
+                        <div class="alpha-sponsor mx-3 ">
+                            <a href="https://lasengsoc.com" title="Lassonde Engineering Society" target="_blank"><img
+                                    src="./assets/partners/lasengsoc.png" class="img-fluid" width="120px" height="120px"
+                                    alt="Lassonde Engineering Society"></a>
+                        </div>
+                        <div class="alpha-sponsor mx-3 ">
+                            <a href="https://linktr.ee/wiseyork" title="Women in Science and Engineering"
+                                target="_blank"><img src="./assets/partners/WISE.PNG" class="img-fluid" width="120px"
+                                    height="120px" alt="WISE"></a>
+                        </div>
+
+                        <!-- <div class="alpha-sponsor" >
+                      <img src="./assets/echoAR-Logo 2020-Dark.png" class="img-fluid" alt="Echo AR">
+                  </div> -->
+                        <!-- <div class="alpha-sponsor p-3 ">
+                      <img src="./assets/small-best.png" class="img-fluid" alt="BEST">
+                  </div> -->
+                    </div>
+
+                    <div class="row" style="justify-content:center">
+
+
+
+                        <!-- <div class="alpha-sponsor" >
+                   <img src="./assets/echoAR-Logo 2020-Dark.png" class="img-fluid" alt="Echo AR">
+               </div> -->
+                        <!-- <div class="alpha-sponsor p-3 ">
+                   <img src="./assets/small-best.png" class="img-fluid" alt="BEST">
+               </div> -->
+                    </div>
+
+                </div>
+                <h2 class="text-primary text-center m-2" id="interestedInSponsor"><a href="mailto:yuhacks2022@gmail.com"
+                        class="text-primary" style="filter:brightness(180%); font-size: 1em; ">Interested in
+                        sponsoring?</a></h1>
+
+        </div>
+    </section>
+    <!-- Sponsor Ends -->
+
+    <!-- FAQ Starts -->
+    <section class="bg-psu p-2 sticky-footer pt-5" id="faq">
+        <div class="container">
+            <h2 class="text-primary title" style="filter:brightness(180%);">Frequently Asked Questions</h1>
+
+                <div class="row text-white  my-3">
+                    <div class="col-lg-6">
+                        <div data-toggle="collapse" data-target="#qs1">
+                            <h5 class="card-title" style=" cursor: pointer;"> What is a hackathon?
+                                <button class="navbar-toggler rotate">
+                                    <!-- When the snowflake button is clicked, it will rotate -->
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid " style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+
+
+                        <div class="collapse navbar-collapse " id="qs1">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer"> A hackathon is a design sprint-like
+                                        event; often, in which
+                                        computer programmers and others
+                                        involved in software development, including graphic designers, interface
+                                        designers, project
+                                        managers, domain experts, and others collaborate intensively on software
+                                        projects. At yuHacks, we have made it possible for those without technical
+                                        skills to still get
+                                        in on the fun! Check out our tracks for more information!</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-toggle="collapse" data-target="#qs2">
+                            <h5 class="card-title" style=" cursor: pointer;">I applied, when will decisions be released?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs2">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem;"></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs2">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">All application decisions will be made
+                                        on a rolling basis! The
+                                        sooner you
+                                        apply, the sooner you’ll hear back!</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-toggle="collapse" data-target="#qs10">
+                            <h5 class="card-title" style=" cursor: pointer;">Who can participate?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs10">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs10">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">Any student from any institution is
+                                        welcome to attend! Whether you’re in
+                                        high school, college, university, or even a coding bootcamp, you are more than
+                                        welcome to join in
+                                        on the fun!</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-toggle="collapse" data-target="#qs8">
+                            <h5 class="card-title" style=" cursor: pointer;">What if I’ve never been to a hackathon
+                                before?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs8">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs8">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">If you’ve never done a hackathon before,
+                                        you’re definitely in the right
+                                        place to change that! We have put together a track just for you!</p>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+
+                        <div data-toggle="collapse" data-target="#qs6">
+                            <h5 class="card-title" style=" cursor: pointer;">What kind of events will there be?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs6">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs6">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">Our specific event focus will be
+                                        professional development. You can expect
+                                        several talks from industry experts, recruiters, and other incredibly talented
+                                        people! You
+                                        can also expect several workshops and games to help you enjoy your
+                                        time away from hacking.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-left">
+                        <div data-toggle="collapse" data-target="#qs4">
+                            <h5 class="card-title" style=" cursor: pointer;">Where will yuHacks take place?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs4">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs4">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">yuHacks will be hybrid. It means that
+                                        the hackathon will take place in-person and online at the same time! </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div data-toggle="collapse" data-target="#qs7">
+                            <h5 class="card-title" style=" cursor: pointer;">How much does it cost to attend yuHacks?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs7">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs7">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">There will be no cost involved with
+                                        attending yuHacks.</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div data-toggle="collapse" data-target="#qs9">
+                            <h5 class="card-title" style=" cursor: pointer;">How many people can be on a team?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs9">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs9">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">Teams can be anywhere from 1-4 hackers.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div data-toggle="collapse" data-target="#qs11">
+                            <h5 class="card-title" style=" cursor: pointer;">When do applications open?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs11">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs11">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">Applications will open on January 1st,
+                                        2022!</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-toggle="collapse" data-target="#qs3">
+                            <h5 class="card-title" style=" cursor: pointer;">What platforms will be used on event day?
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs3">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs3">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">Leading up to event week, you’ll receive
+                                        all important information via
+                                        email.
+                                        Our Discord server will open up at the start of event week. Event day
+                                        communications will
+                                        all
+                                        take place in the Discord server. Most of our events will be
+                                        broadcast live on YouTube.</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div data-toggle="collapse" data-target="#qs5">
+                            <h5 class="card-title" style=" cursor: pointer;">I’m interested in sponsoring your event!
+                                <button class="navbar-toggler rotate" data-toggle="collapse" data-target="#qs5">
+                                    <span>
+                                        <i class="bi bi-snow2 img-fluid" style="color:white; font-size: 2rem; "></i>
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div class="collapse navbar-collapse " id="qs5">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <p class="nav-link text-primary faq-answer">We’d love to talk about how we can work
+                                        together! Please send an email to
+                                        yuhacks2022@gmail.com and we’ll be sure to get back to you ASAP.</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- FAQ Ends -->
+
+    <!-- Our Team Starts -->
+
+    <section id="team" class="bg-psu p-2 ">
+
+        <div class="container bg-psu">
+            <h1 class="text-primary title" style="filter:brightness(180%);">Our team</h1>
+            <div class="row ">
+                <div class="card m-3 bg-psu border-0 " style="max-width: 440px; max-height: 450px;">
+                    <div class="row no-gutters ">
+                        <div class="col-md-4  ">
+                            <img src="./assets/Execs Profile Pictures/John.JPG" class="rounded-circle img-fluid p-3 "
+                                alt="John" width="350" height="350">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-white"><strong>John Park</strong></h3>
+                                <h4 class="card-text text-white ">GDSC Lead</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3 bg-psu border-0" style="max-width: 440px; max-height: 450px;">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Execs Profile Pictures/KanikaParikh.jpeg"
+                                class="rounded-circle img-fluid mx-auto p-3" alt="Kanika" width="350" height="350">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-white"><strong>Kanika Parikh</strong></h3>
+                                <h4 class="card-text text-white">Co-Lead</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd Row -->
+            <div class="row">
+                <div class="card m-3 bg-psu border-0" style="max-width: 440px; max-height: 450px;">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Execs Profile Pictures/Allen.jpg"
+                                class="rounded-circle img-fluid mx-auto p-3" alt="Allen" width="350" height="350">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-white"><strong>Allen Kaplan</strong></h3>
+                                <h4 class="card-text text-white">Technical Lead</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3 bg-psu border-0" style="max-width: 440px; max-height: 450px;">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Execs Profile Pictures/Bailey.jpg"
+                                class="rounded-circle img-fluid mx-auto p-3" alt="Bailey" width="350" height="350">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-white"><strong>Bailey Luu</strong></h3>
+                                <h4 class="card-text text-white">Technical Lead</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3rd Row -->
+            <div class="row">
+                <div class="card m-3 bg-psu border-0" style="max-width: 440px; max-height: 450px;">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Execs Profile Pictures/Steeve.jpg"
+                                class="rounded-circle mx-auto img-fluid p-3" alt="Steeve" width="350" height="350">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-white"><strong>Steeve Otoka</strong></h3>
+                                <h4 class="card-text text-white">Community Lead</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card m-3 bg-psu border-0" style="max-width: 440px; max-height: 450px;">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Execs Profile Pictures/Joo.jpeg"
+                                class="rounded-circle img-fluid mx-auto p-3" alt="Joo" width="350" height="350">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-white"><strong>Joo Park</strong></h3>
+                                <h4 class="card-text text-white">Design Lead</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4th Row -->
+            <div class="row">
+                <div class="card m-3 bg-psu border-0" style="max-width: 440px; max-height: 450px;">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Execs Profile Pictures/Arman.jpg"
+                                class="rounded-circle img-fluid mx-auto  p-3" alt="Arman" width="350" height="350">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-white"><strong>Arman Ahmed</strong></h3>
+                                <h4 class="card-text text-white">First Year Rep</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card m-3 bg-psu border-0" style="max-width: 440px; max-height: 450px;">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Execs Profile Pictures/Arianne.jpg"
+                                class="rounded-circle img-fluid mx-auto p-3" alt="Arianne" wwidth="350" height="350">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title text-white"><strong>Arianne Rull</strong></h3>
+                                <h4 class="card-text text-white">First Year Rep</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-right">
+                <button class="up" style="font-size: 20px;"><a href="#home">&#8679;</a></button>
+
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- Our Team Ends-->
+
+    <!-- Contact Starts -->
+    <section id="contact" class="bg-psu p-2 text-sm-left" style="height: 370px;filter:brightness(180%); ">
+        <div class="container text-center mt-2">
+            <h2 class="text-primary title">Contact Us</h1>
+
+                <h4 class="text-white m-3">Reach out to us at <a href="mailto:yuhacks2022@gmail.com"
+                        class="text-primary" style="filter:brightness(180%); ">yuhacks2022@gmail.com</a></h4>
+
+                <div class=" m-4">
+                    <a href="https://www.linkedin.com/company/yuhacks/" class="social-media__link" target="_blank">
+                        <i class="bi bi-linkedin up m-2" style="font-size: 2em;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/yuhacks/" class="social-media__link" target="_blank">
+                        <i class="bi bi-instagram up m-2" style="font-size: 2em;"></i>
+                    </a>
+                    <a href="https://discord.gg/JaapPA8" class="social-media__link" target="_blank">
+                        <i class="bi bi-discord up m-2" style="font-size: 2.2em;"></i>
+                    </a>
+
+                    <h6 class="text-white mt-2">Copyright 2022 &copy; yuHacks | <a
+                            href="https://yuhacks2021.devpost.com" class="text-white" style="font-size: 1rem;"
+                            target="_blank">2021</a></h6>
+                    <!-- <h6 class="text-white m-3"><a href="http://mlh.io/code-of-conduct" class="text-white"
+                           style="font-size: 1rem;" target="_blank">Code Of
+                           Conduct | <a href="https://mlh.io/privacy" class="text-white" target="_blank">Privacy Policy</a> </a></h6> -->
+                    <!-- <h6 class="text-white "> <a href="mailto:yuhacks2022@gmail.com" class="text-white">Sponsor Us</a></h6> -->
+                    <h6 class="text-white">Made with <i class="bi bi-heart-fill text-primary"
+                            style="filter:brightness(180%); "></i> by GDSC YorkU</h6>
+                </div>
+        </div>
+    </section>
+    <!-- Contact Ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 500,
+            duration: 800,
+            once: true,
+        }
+
+        );
+    </script>
+
+    <!-- Smooth Scroll Effect that works for all browser -->
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+    <!-- Smooth Scroll Effect Ends -->
+
+    <!-- When user click on the snowflake in FAQ, the snowflakes will rotate -->
+    <script>
+        $(".rotate").click(function () {
+            $(this).toggleClass("down");
+        })
+    </script>
+
+</body>
+
+</html>
